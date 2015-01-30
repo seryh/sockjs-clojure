@@ -6,7 +6,7 @@ This is a sockjs implementation on top of the http-kit server.
 
 Add the following dependency to your `project.clj` file:
 
-    [sockjs-clojure "0.1.0"]
+[![Clojars Project](http://clojars.org/sockjs-clojure/latest-version.svg)](http://clojars.org/sockjs-clojure)
 
 ## Usage
 
