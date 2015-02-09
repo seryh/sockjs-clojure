@@ -54,7 +54,7 @@
                  (sequential? (:content msg))
                  ,(cstr/join "," (map to-json (:content msg)))
                  :else (to-json (:content msg)))
-                msg)
+                (to-json msg))
               "]")))
 
 (defprotocol PSession
