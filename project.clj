@@ -1,4 +1,4 @@
-(defproject sockjs-clojure "0.1.0"
+(defproject sockjs-clojure "0.1.1-SNAPSHOT"
   :description "A sockjs implementation on top of http-kit server"
   :url "https://github.com/jenshaase/sockjs-clojure"
   :license {:name "Eclipse Public License"
