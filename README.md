@@ -28,8 +28,3 @@ Next we can create an compojure handler:
   (wr/io-handler "/ws" (->Connection) {:response-limit 4096}))
 ```
 
-## License
-
-Copyright © 2014 Jens Haase
-
-Distributed under the Eclipse Public License, the same as Clojure.
