@@ -7,7 +7,7 @@ added sockjs.iowrapper, implements a simple protocol from client https://github.
 
 ## Usage
 
-```
+```clojure
 (:require [sockjs.iowrapper :as wr]))
 
 (defrecord Connection []
@@ -22,7 +22,7 @@ added sockjs.iowrapper, implements a simple protocol from client https://github.
 
 Next we can create an compojure handler:
 
-```
+```clojure
 (defroutes my-routes
   (GET "/" [] "hello world")
   (wr/io-handler "/ws" (->Connection) {:response-limit 4096}))
